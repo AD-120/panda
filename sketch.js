@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(600, 600);
   textFont("Courier");
-  textSize(20);
+  textSize(100);
 }
 function draw() {
   background(255);
