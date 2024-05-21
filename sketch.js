@@ -12,3 +12,6 @@ function draw() {
   text(c, 300, 300);
   text(frameCount, 400, 400);
 }
+function mousePressed() {
+frameCount=0;
+}
