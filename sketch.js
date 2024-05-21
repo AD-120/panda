@@ -4,7 +4,7 @@ function setup() {
   textSize(100);
 }
 function draw() {
-  background(255);
+  background(bg);
   text("PANDA", 100, 100);
   let txt = "Drama";
   text(txt, 200, 200);
@@ -13,5 +13,5 @@ function draw() {
   text(frameCount, 400, 400);
 }
 function mousePressed() {
-frameCount=0;
+bg= random(255);
 }
